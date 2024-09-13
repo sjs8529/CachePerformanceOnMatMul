@@ -27,7 +27,7 @@ def saveMatrix(matrixA, matrixB, filename):
     else:   
         print("New file created: ",filename)
     f = open(filename, "w")
-    for i, matrix in enumerate([matrixA, matrixB]):
+    for i, matrix in enumerate([matrixA]):
         if i != 0:
             f.write("\n")
         for line in matrix:
