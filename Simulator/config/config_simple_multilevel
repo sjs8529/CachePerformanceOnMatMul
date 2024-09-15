@@ -22,4 +22,3 @@ cache_3:
 
 mem: #required
   hit_time: 1000 #cycles
-
